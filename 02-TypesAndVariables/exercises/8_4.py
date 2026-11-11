@@ -6,7 +6,7 @@ cm = 170
 
 # calculate the number of feet
 feet = cm/30.48
-inches = cm/2.54
+
 # calculate the number of inches
 inches = cm/2.54
 #Wyświetlenie wysokości
