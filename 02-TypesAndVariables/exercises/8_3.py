@@ -4,7 +4,9 @@
 
 #Zczytaj temperaturę w stopniach Celsjusza z klawiatury
 temp = float(input('Podaj temperaturę w stopniach Celsjusza: '))
+#Pzemiana temperatury w stopniach Celsjusza na stopnie Kelvina i Fahrenheita
 temp_k = temp + 273.15
 temp_f = (temp * 9/5) + 32
+#Wyświetlenie temperatury w stopniach Kelvina i Fahrenheita
 print(f'Temperatura w stopniach Kelvina: {temp_k}')
 print(f'Temperatura w stopniach Fahrenheita: {temp_f}')
