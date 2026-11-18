@@ -13,7 +13,7 @@ print('The number of characters in "computer science" is', str_length)
 l_read = input("Write a letter:")
 print('Letter you typed is', l_read)
 
-string = type(20303)
+string = int('20303')
 print('Number representing the string "20303" is', string)
 
 bi = bin(304)
@@ -22,3 +22,8 @@ print('304 in binary string is', bi)
 he = hex(304)
 print('304 in hexadecimal string is', he)
 
+unicode_number = ord("£")
+print("Unicode code of £ is:", unicode_number)
+
+absolute_number = abs(-17)
+print("Absolute value of -17 is:", absolute_number)
