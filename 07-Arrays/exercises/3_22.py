@@ -1,13 +1,10 @@
-import MyText
+import random
+def rand_elem(array):
+    return random.choice(array)
 
-text = "An apple a day keeps the doctor away"
+arr = [15, 8, 31, 47, 2, 19]
 
-print("Text:", text)
-
-print("Number of words:", MyText.word_count(text))
-
-longest = MyText.longest_words(text)
-print("Words from the longest:", ",".join(longest))
-
-alphabetical = MyText.alphabetical_words(text)
-print("Words ordered alphabetically:", ",".join(alphabetical))
+print(rand_elem(arr))
+print(rand_elem(arr))
+print(rand_elem(arr))
+print(rand_elem(arr))
