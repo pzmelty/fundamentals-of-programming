@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 # file name
-file_name = Path(__file__).resolve().parent.parent / 'files.txt'
+file_name ='08-FileHandling/files.txt'
 
 # read file
 with open(file_name, 'r') as file:
