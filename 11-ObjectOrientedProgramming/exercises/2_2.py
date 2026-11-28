@@ -1,5 +1,3 @@
-# class definition
-
 class Song:
 
     def __init__(self, artist, title, album, year):

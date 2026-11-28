@@ -1,5 +1,3 @@
-# ebook_show.py file
-
 from ebook import EBook
 
 

@@ -1,5 +1,3 @@
-# tv_show.py file
-
 from tv import TV
 
 

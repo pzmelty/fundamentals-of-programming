@@ -1,4 +1,3 @@
-# class definition
 class EBook:
 
     def __init__(self, title, author, pages):
