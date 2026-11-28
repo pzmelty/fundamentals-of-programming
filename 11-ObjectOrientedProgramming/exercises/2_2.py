@@ -1,4 +1,3 @@
-
 # class definition
 
 class Song:
